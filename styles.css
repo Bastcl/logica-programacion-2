@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-borde-llama-imagen-fuego-realista-negro_53876-153392.jpg?semt=ais_hybrid);
+    background-size: cover;
+    background-position: end;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: "Henny Penny", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    color: yellow;
+
+}
+
+#resultado {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    color: white;
+
+}
