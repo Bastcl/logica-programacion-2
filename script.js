@@ -26,6 +26,8 @@ function convertirTemperatura() {
     console.log(`Grados Fahrenheit: ${fahrenheit.toFixed(2)}`);
 
     document.getElementById("resultado").innerHTML = `
+
+        <p>Grados Celsius: ${celsius.toFixed(2)}</p>
         <p>Grados Kelvin: ${kelvin.toFixed(2)}</p>
         <p>Grados Fahrenheit: ${fahrenheit.toFixed(2)}</p>
     `;
