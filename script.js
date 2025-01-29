@@ -1,4 +1,3 @@
-const prompt = require('prompt-sync')();
 function celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
@@ -33,4 +32,6 @@ function convertirTemperatura() {
         <p>Grados Fahrenheit: ${fahrenheit.toFixed(2)}</p>
     `;
 }
+//const prompt = require('prompt-sync')();
+//para acceder desde la terminal
 convertirTemperatura();
