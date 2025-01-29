@@ -19,3 +19,15 @@ function convertirTemperatura() {
             alert("Error: Debe ingresar un número válido. Inténtelo de nuevo.");
         }
     }
+    const fahrenheit = celsiusToFahrenheit(celsius);
+    const kelvin = celsiusToKelvin(celsius);
+
+    console.log(`Grados Kelvin: ${kelvin.toFixed(2)}`);
+    console.log(`Grados Fahrenheit: ${fahrenheit.toFixed(2)}`);
+
+    document.getElementById("resultado").innerHTML = `
+        <p>Grados Kelvin: ${kelvin.toFixed(2)}</p>
+        <p>Grados Fahrenheit: ${fahrenheit.toFixed(2)}</p>
+    `;
+}
+convertirTemperatura();
